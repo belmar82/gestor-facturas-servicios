@@ -1,0 +1,16 @@
+# Entorno
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+
+# Datos operativos (no publicar)
+salidas/
+respaldos/
+registros/
+config/config.json
+config/plantilla_remision.docx
+config/diccionario_polizas.xlsx
+*.zip

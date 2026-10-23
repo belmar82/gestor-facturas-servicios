@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "general": {
+    "carpeta_salida": "salidas",
+    "carpeta_respaldos": "respaldos",
+    "carpeta_registros": "registros",
+    "diccionario": "config/diccionario_ejemplo.xlsx",
+    "incluir_facturas_sin_poliza": false,
+    "incluir_otros_conceptos_en_facturacion": true,
+    "incluir_otros_cobros_en_facturacion": false,
+    "total_deuda_desde": "2026-08",
+    "orden_informe": "diccionario"
+  },
+  "informe": {
+    "titulo": "RELACIÓN DE FACTURAS - {MES_TITULO} {ANIO}",
+    "hoja_detalle": "DETALLE",
+    "hoja_informe": "TABLA DE INFORME",
+    "hoja_sin_coincidencia": "SIN COINCIDENCIA",
+    "nombre_archivo": "TABLA DE INFORME {MES_TITULO} {ANIO}.xlsx"
+  },
+  "tabla": {
+    "fuente": "C:/Windows/Fonts/arial.ttf",
+    "fuente_negrita": "C:/Windows/Fonts/arialbd.ttf",
+    "dpi": 300,
+    "tamano_max": 42,
+    "tamano_min": 20,
+    "color_encabezado": "#1F4E79",
+    "color_encabezado_texto": "#FFFFFF",
+    "color_filas_alternas": "#EAF1F8",
+    "color_total": "#CDD9E5",
+    "color_borde": "#9DB2C6",
+    "color_titulo": "#1F4E79"
+  },
+  "oficio": {
+    "plantilla": "config/plantilla_remision.docx",
+    "nombre_salida": "REMISION {MES_TITULO} {ANIO}.docx",
+    "fecha": "auto",
+    "ciudad_fecha": "Ciudad",
+    "destinatarios": [
+      [
+        "Doctor(a)",
+        "NOMBRE DEL FUNCIONARIO",
+        "Cargo."
+      ],
+      [
+        "Doctor(a)",
+        "NOMBRE DEL FUNCIONARIO",
+        "Cargo.",
+        "Nombre de la entidad",
+        "La ciudad."
+      ]
+    ],
+    "asunto": "Solicitud de CDP y RP para pago de facturas de servicios públicos, {MES_TITULO} {ANIO}.",
+    "cuerpo": "Mediante la presente se envía la relación de las facturas del prestador por valor de {VALOR}, correspondientes a la prestación del servicio durante el mes de {MES_MIN} de {ANIO} a las instituciones educativas, las cuales fueron revisadas por parte de la entidad para solicitar la generación de CDP y RP necesarios para realizar el proceso de pago.",
+    "remitente": [
+      "NOMBRE DEL REMITENTE.",
+      "Cargo del remitente.",
+      "Nombre de la entidad"
+    ],
+    "proyecto": [
+      "Proyectó: {NOMBRE}",
+      "\t{CARGO}"
+    ],
+    "proyecto_nombre": "Nombre del practicante",
+    "proyecto_cargo": "Cargo del practicante",
+    "reviso": [
+      "Revisó: {NOMBRE}",
+      "\t{CARGO}"
+    ],
+    "reviso_nombre": "Nombre del jefe inmediato",
+    "reviso_cargo": "Cargo del jefe inmediato",
+    "insertar_tabla": true,
+    "pagina_nueva_para_tabla": true,
+    "ancho_tabla_cm": 0.0,
+    "pdf_con_facturas": true,
+    "nombre_pdf": "REMISION Triple A {MES_TITULO} {ANIO} - oficio y facturas.pdf"
+  }
+}
