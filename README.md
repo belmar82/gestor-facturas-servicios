@@ -5,7 +5,7 @@ genera el libro de Excel con la tabla del informe y el oficio de remisión en Wo
 
 Nació como parte de un plan de mejoramiento en la Secretaría de Educación de Soledad (Atlántico,
 Colombia) para reemplazar la digitación manual de los conceptos de cada factura, que tomaba alrededor de
-75 minutos al mes.
+240 minutos al mes.
 
 ## Qué hace
 
